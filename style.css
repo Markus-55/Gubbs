@@ -6,6 +6,14 @@ main, header, footer{
   padding: 2rem;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  color: red;
+}
+
 .gubbs-logo {
   width: 10%;
 }

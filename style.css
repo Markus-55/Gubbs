@@ -14,6 +14,7 @@ button:hover {
 }
 
 .gubbs-logo {
+    animation: slide-in 2s forwards;
   width: 10%;
 }
 footer{
@@ -21,8 +22,21 @@ footer{
     margin-top: 2rem;
     padding-top: 1rem;
 }
-footer{
-    border-top: 1px solid #ccc;
-    margin-top: 2rem;
-    padding-top: 1rem;
+@media (max-width: 600px) {
+  main, header, footer {
+    padding: 1rem;
+  }
+  .gubbs-logo {
+    width: 20%;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
 }

@@ -57,3 +57,7 @@ footer{
     transform: translateX(100%);
   }
 }
+
+#hide-contact {
+  display: none;
+}

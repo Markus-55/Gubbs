@@ -1,55 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gubbs</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="flavoicon.png">
-</head>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="flavoicon.png" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <img class='gubbs-logo' href="style.css" src="logo.png" alt="Logo på Gubbs">
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-        </nav>
+      <img
+        class="gubbs-logo"
+        href="style.css"
+        src="logo.png"
+        alt="Logo på Gubbs"
+      />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
     <main>
-        <article>
-            <h1>Kontakta oss</h1>
-            <h2>Medlemmar</h2>
-            <p>
-            <ul>
-                Fredrik Kallin
-                <li><a href="https://github.com/fredrikkallingmailcom"> GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/fredrik-kallin-947296156/"> LinkedIn</a></li>
-            </ul>
-            <ul>
-                Jonathan Landén
-                <li><a href="https://github.com/PapaJonte"> GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/jonathan-land%C3%A9n-b06471431/"> LinkedIn</a></li>
-            </ul>
-            <ul>
-                Markus Bielaszka
-                <li><a href="https://github.com/Markus-55"> GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/markus-bielaszka/"> LinkedIn</a></li>
-            </ul>
-            <ul>
-                Robin Wedin
-                <li><a href="https://github.com/wedins"> GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/robin-wedin-a1303737a/"> LinkedIn</a></li>
-            </ul>
-            </p>
+      <article>
+        <h1>Kontakta oss</h1>
+        <h2>Medlemmar</h2>
 
-        </article>
+        <button onclick="hideContact()">Check out the team!</button>
+        <section id="hide-contact">
+          <ul>
+            <li>Fredrik Kallin</li>
+            <li>
+              <a href="https://github.com/fredrikkallingmailcom"> GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/fredrik-kallin-947296156/">
+                LinkedIn</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>Jonathan Landén</li>
+            <li><a href="https://github.com/PapaJonte"> GitHub</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jonathan-land%C3%A9n-b06471431/"
+              >
+                LinkedIn</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>Markus Bielaszka</li>
+            <li><a href="https://github.com/Markus-55"> GitHub</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/markus-bielaszka/">
+                LinkedIn</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>Robin Wedin</li>
+            <li><a href="https://github.com/wedins"> GitHub</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/robin-wedin-a1303737a/">
+                LinkedIn</a
+              >
+            </li>
+          </ul>
+        </section>
+      </article>
     </main>
     <footer>
-      <p><a href="https://x.com/YourAnonOne?lang=en"> @2026 Gubbs. All form av plagiat har konsekvenser.</a></p>
+      <p>
+        <a href="https://x.com/YourAnonOne?lang=en">
+          @2026 Gubbs. All form av plagiat har konsekvenser.</a
+        >
+      </p>
     </footer>
-</body>
 
+    <script src="script.js"></script>
+  </body>
 </html>

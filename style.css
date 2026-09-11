@@ -1,9 +1,10 @@
 p{color:black;}
-main {
+main, header, footer{
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
 }
+
 .gubbs-logo {
-  
+  width: 10%;
 }

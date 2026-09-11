@@ -1,5 +1,16 @@
+* {
+    --bakgrund: #1c1c20;
+    --text: #ffffff;
+    --primar: #4CAF50;
+    --sekundar: #2196F3;
+    --hover: #45a049;
+}
+body {
+    background-color: var(--bakgrund);
+    color: var(--text);
+}
 
-p{color:black;}
+p{color:rgb(235, 225, 225);}
 main, header, footer{
   max-width: 800px;
   margin: 0 auto;
